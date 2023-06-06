@@ -1,7 +1,7 @@
 <script lang="ts">
   import svelteLogo from "./assets/svelte.svg";
   import Counter from "./lib/Counter.svelte";
-
+  import NaverMap from "./components/NaverMap.svelte";
   import Geolocation from "./Geolocation.svelte";
 
 
@@ -14,9 +14,11 @@
 </script>
 
 <main>
+    <NaverMap/>
 <!--    <Camera/>-->
-    <Geolocation/>
+<!-- <Geolocation/> -->
 <!--    <button on:click={() => socket.emit("geolocation.change")}>qwer</button>-->
+
 </main>
 
 <style>
